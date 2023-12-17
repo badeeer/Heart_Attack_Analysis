@@ -27,11 +27,11 @@ This notebook provides an analysis of heart attack data, exploring various facto
 
 $$F_{1} = 2 \cdot \frac{\text{ precision } \cdot \text{ recall }}{\text{ precision }+\text{ recall }} = \frac{\mathrm{TP}}{\mathrm{TP} + \frac{1}{2}(\text{FP} + \mathrm{FN})}$$
 
-$$TP = number~of~true~positives$$
+TP = number of true positives
 
-$$FP = number~of~false~positives$$
+FP = number~of~false~positives
 
-$$FN = number~of~false~negative$$
+FN = number of false negative
 
 6. **XGBClassifier**: XGBClassifier is a class in the XGBoost library, which is an optimized gradient boosting framework. XGBoost is known for its high performance and is widely used for both classification and regression tasks.
 
